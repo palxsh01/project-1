@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+alembic
+psycopg2-binary        # if you use Postgres (remove if using sqlite in prod)
+python-dotenv
+passlib[bcrypt]
+PyJWT
+python-multipart
+pillow
+pytest
+httpx
